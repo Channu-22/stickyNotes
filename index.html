@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stickyNotes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="">
+                <div class="input">
+                    <textarea name="note" id="" placeholder="//Write a note here..."></textarea>
+                    <input type="color" name="color" value="#6BFFB3">
+                </div>
+               <button type="submit" id="btn">Add note</button>
+            </form>
+        </div>
+        <div class="right">
+            <h1>Your notes</h1>
+           
+                <!-- <button class="undo-button">UNDO</button> -->
+          
+              
+            <div class="note-container"></div>
+            <!-- <button class="undo">UNDO</button> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
